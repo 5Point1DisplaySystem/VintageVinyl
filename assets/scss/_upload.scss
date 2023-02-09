@@ -1,0 +1,32 @@
+
+.upload{
+    width: 80%;
+    margin: auto;
+    form{
+        width: 100%;
+    }
+    div{
+        margin: 20px 0;
+    }
+    input{
+        width: 100%;
+    }
+    label{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    select{
+        color: black;
+        background: lightgrey;
+    }
+    .submit{
+        padding: 10px 30px;
+        background: black;
+        color: white;
+        width: auto;
+        border: none;
+
+    }
+}

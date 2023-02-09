@@ -1,0 +1,23 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/ksturgeongcc/vintageVinylv6Master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksturgeongcc/vintageVinylv6Master/issues"
+  },
+  "homepage": "https://github.com/ksturgeongcc/vintageVinylv6Master#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

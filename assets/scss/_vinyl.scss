@@ -1,0 +1,143 @@
+li{
+    cursor: pointer;
+}
+h4.pending{
+    margin-top: 10px;
+    padding: 5px;
+    color: red;
+}
+h4.published{
+    margin-top: 10px;
+    padding: 5px;
+    color: green;
+}
+#go_back{
+    width: fit-content;
+    margin: 20px 0;
+    padding: 10px;
+}
+.container {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .genre{
+        position: absolute;
+        bottom: 0;
+        z-index: 5;
+        left: 0;
+        font-family: 'Monoton';
+        font-size: 20px;
+        background: black;
+        color: white;
+        padding: 5px 0;
+        border: 4px white ridge;
+        width: 80%;
+        text-align: center;
+    }
+    .seller{
+        background: white;
+        width: fit-content;
+        padding: 10px 20px;
+        border: 3px ridge black;
+        font-family: 'Monoton';
+        color: black;
+    
+    }
+    .title{
+        font-family: 'Monoton';
+        font-size: 40px;
+        background: red;
+        width: fit-content;
+        color: white;
+        padding: 5px;
+        border: white ridge 5px;
+    }
+    .landing-page {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        background-image: url(https://res.cloudinary.com/benfiika/image/upload/o_40/v1472856748/design003/metal-crowd-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.75);
+        .text-container {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 1%;
+            div {
+                margin-bottom: 40px;
+              }
+            img {
+                width: 80%;
+              }
+        }
+        .vinyl-container {
+            position: relative;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .vinyl-record {
+                position: absolute;
+                left: 44%;
+                width: 57%;
+            }
+            .album-cover {
+                z-index: 1;
+                width: 75%;
+                position: relative;
+                img {
+                    width: 80%;
+                  }
+            }
+        }
+      }
+  }
+
+
+  @-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 4s linear infinite;
+    -moz-animation: rotating 4s linear infinite;
+    -ms-animation: rotating 4s linear infinite;
+    -o-animation: rotating 4s linear infinite;
+    animation: rotating 4s linear infinite;
+  }
